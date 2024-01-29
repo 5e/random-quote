@@ -1,0 +1,53 @@
+body {
+  font-family: Palatino;
+  font-weight: 500;
+  font-size: 2.5vh;
+}
+
+button {
+  width: 30vw;
+  height: 2vh;
+  font-size: 1vh;
+}
+
+#poem > p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+#author {
+  margin-top: 40px;
+}
+
+#title {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.round-button {
+  border: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 2.5vh;
+  background-color: transparent;
+}
+
+::backdrop {
+  background-color: black;
+  opacity: 0.75;
+}

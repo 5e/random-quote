@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body class="dark-mode">
+  <dialog>
+    <div>
+      Inspirational quotes provided by
+      <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a>
+    </div>
+
+    <button onclick="toggleDarkMode()">Light/Dark mode</button>
+    <br />
+    <button autofocus id="closeDialog">Close</button>
+  </dialog>
+
+  <div style="position: absolute; top: 0">
+    <button class="round-button" id="showDialog">⚙️</button>
+  </div>
+
+  <div class="center-content">
+    <div id="quote"></div>
+    <div id="author"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
